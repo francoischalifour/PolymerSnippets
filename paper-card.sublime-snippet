@@ -1,14 +1,11 @@
 <snippet>
-	<content><![CDATA[
-<paper-card heading="${1:Card title}">
-	<div class="card-content">$2</div>
-	  <div class="card-actions">
-		<paper-button>$3</paper-button>
-	  </div>
+    <content><![CDATA[
+<paper-card heading="${1:Card title}"${2: image="$3"} elevation="${4:1}" animated-shadow="${5:false}">
+    $0
 </paper-card>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>paper-card</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>paper-card</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
 </snippet>
